@@ -1,0 +1,26 @@
+.navbar {
+  margin-bottom: 10vh;
+  position: sticky;
+  top: 0;
+}
+
+.contactinfo {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.emailinfo {
+  display: flex;
+  align-items: center;
+}
+.phoneinfo {
+  display: flex;
+  align-items: center;
+}
+
+.addressinfo {
+  display: flex;
+  align-items: center;
+}

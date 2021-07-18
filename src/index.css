@@ -5,9 +5,137 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fffaea;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.mainpage {
+  display: flex;
+  flex-direction: column;
+}
+
+.missiontop {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  min-height: 10vh;
+  background-color: rgb(217, 163, 132) !important;
+  border-top-right-radius: 75px;
+}
+
+.missionheader h1 {
+  font-size: 3rem;
+}
+
+.missionbottom {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  width: 55%;
+  min-height: 10vh;
+  background-color: rgb(217, 163, 132) !important;
+  border-bottom-left-radius: 75px;
+}
+
+.missiontext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 80%;
+  min-height: 20vh;
+  box-shadow: 0px -1px 1px rgb(217, 163, 132);
+  border-radius: 25px;
+  border-bottom-right-radius: 0px;
+}
+
+.aboutusCont {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  align-self: center;
+}
+
+.aboutustext {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-height: 40vh;
+  border-radius: 15px;
+}
+
+.imagecarousel {
+  align-self: flex-end;
+  border-radius: 15px;
+  
+}
+
+.imagecarousel > img {
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px rgb(217, 163, 132);
+}
+
+.eventsinfo {
+  align-self: center;
+  margin-top: 10vh;
+  min-height: 20vh;
+  width: 50%;
+  background-color: rgb(217, 163, 132) !important;
+  border-radius: 10px;
+}
+
+.bluesevent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 40vh;
+}
+
+.eventdate {
+  display: flex;
+  align-items: center;
+}
+
+.eventlocation {
+  display: flex;
+  align-items: center;
+}
+
+.sponsorinfo {
+  width: 50%;
+  margin: 2%;
+}
+
+.donationinfo {
+  width: 50%;
+  align-self: flex-end;
+  margin: 2%;
+}
+
+.volunteerinfo {
+  width: 50%;
+  align-self: center;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: rgba(168, 99, 99, 0.849) !important;
+}
+
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .MuiToolbar-root {
+    flex-direction: column-reverse;
+  }
 }

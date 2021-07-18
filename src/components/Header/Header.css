@@ -1,0 +1,15 @@
+.header {
+  width:100vw;
+  min-height: 90vh;
+  background-color:#fffaea;
+  background-image: url('../../images/venueartslogo.png');
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
