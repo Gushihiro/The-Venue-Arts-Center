@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+a {
+  color:rgb(217, 163, 132)
+}
+
 .mainpage {
   display: flex;
   flex-direction: column;
@@ -23,12 +27,14 @@ code {
   justify-content: center;
   width: 55%;
   min-height: 10vh;
-  background-color: rgb(217, 163, 132) !important;
+  background-color: #c5cbe3 !important;
   border-top-right-radius: 75px;
+  box-shadow: 0px -1px 5px #c5cbe3;
 }
 
 .missionheader h1 {
   font-size: 3rem;
+  color:#f13c20;
 }
 
 .missionbottom {
@@ -37,8 +43,9 @@ code {
   align-self: flex-end;
   width: 55%;
   min-height: 10vh;
-  background-color: rgb(217, 163, 132) !important;
+  background-color: #4056a1 !important;
   border-bottom-left-radius: 75px;
+  box-shadow: 0px 1px 5px #4056a1;
 }
 
 .missiontext {
@@ -48,7 +55,7 @@ code {
   align-self: center;
   width: 80%;
   min-height: 20vh;
-  box-shadow: 0px -1px 1px rgb(217, 163, 132);
+  box-shadow: 0px -1px 1px #f13c20;
   border-radius: 25px;
   border-bottom-right-radius: 0px;
 }
@@ -63,11 +70,17 @@ code {
 }
 
 .aboutustext {
+  background-color: #efe2ba;
   display: flex;
   flex-direction: column;
   width: 30%;
   min-height: 40vh;
   border-radius: 15px;
+  padding: 1.25vw;
+}
+
+.aboutustext h1 {
+  color: #f13c20;
 }
 
 .imagecarousel {
@@ -86,8 +99,12 @@ code {
   margin-top: 10vh;
   min-height: 20vh;
   width: 50%;
-  background-color: rgb(217, 163, 132) !important;
+  background-color: #efe2ba !important;
   border-radius: 10px;
+}
+
+.eventsinfo h1 {
+  color: #f13c20;
 }
 
 .bluesevent {
@@ -109,19 +126,44 @@ code {
 }
 
 .sponsorinfo {
-  width: 50%;
-  margin: 2%;
+  width: 40%;
+  margin-top: 10vh;
+  min-height: 40vh;
+  padding: 1.5rem;
+  background-color: #efe2ba;
+  border-radius: 10px;
+  margin-left: 3rem;
+}
+
+.sponsorinfo h1 {
+  color: #f13c20;
 }
 
 .donationinfo {
-  width: 50%;
+  width: 40%;
+  min-height: 30vh;
   align-self: flex-end;
-  margin: 2%;
+  margin-right: 3rem;
+  margin-top: 10vh;
+  background-color: #efe2ba;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.donationinfo h1 {
+  color: #f13c20;
 }
 
 .volunteerinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10vh;
   width: 50%;
+  min-height: 20vh;
   align-self: center;
+  background-color: #efe2ba;
+  border-radius: 10px;
 }
 
 .MuiAppBar-colorPrimary {
