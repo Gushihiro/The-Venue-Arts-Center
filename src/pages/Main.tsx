@@ -14,7 +14,7 @@ export default function Main() {
         <h1>Our Mission ?</h1>
       </div>
       <div className='missiontext'>
-        <h2>To Restore Preserve, Perpetuate and Protect All Forms of “The Arts;” Wherever Needed, Necessary, or Required.</h2>
+        <h2>To Restore Preserve, Perpetuate, Protect, and Perform All Forms of “The Arts;” Wherever Needed, Necessary, or Required.</h2>
       </div>
       <div className='missionbottom'/>
       <div className='aboutusCont'>
