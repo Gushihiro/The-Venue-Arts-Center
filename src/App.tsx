@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route exact path='/venueartscenter'>
+        <Route exact path=''>
           <Main/>
         </Route>
       </Router>
