@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/venueartscenter/static/css/main.1e243fce.chunk.css",
-    "main.js": "/venueartscenter/static/js/main.de9451f2.chunk.js",
-    "main.js.map": "/venueartscenter/static/js/main.de9451f2.chunk.js.map",
+    "main.js": "/venueartscenter/static/js/main.6ea15521.chunk.js",
+    "main.js.map": "/venueartscenter/static/js/main.6ea15521.chunk.js.map",
     "runtime-main.js": "/venueartscenter/static/js/runtime-main.78c5457e.js",
     "runtime-main.js.map": "/venueartscenter/static/js/runtime-main.78c5457e.js.map",
     "static/js/2.28710be7.chunk.js": "/venueartscenter/static/js/2.28710be7.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.78c5457e.js",
     "static/js/2.28710be7.chunk.js",
     "static/css/main.1e243fce.chunk.css",
-    "static/js/main.de9451f2.chunk.js"
+    "static/js/main.6ea15521.chunk.js"
   ]
 }
