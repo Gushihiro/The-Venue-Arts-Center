@@ -25,7 +25,7 @@ export default function NavBar() {
             </div>
           </div>
           <Typography variant="h6">
-            Venue Arts Center
+            The Venue Arts Center
           </Typography>
         </Toolbar>
       </AppBar>
