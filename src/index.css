@@ -34,7 +34,7 @@ a {
 
 .missionheader h1 {
   font-size: 3rem;
-  color:#f13c20;
+  color:rgba(168, 99, 99, 0.849);
 }
 
 .missionbottom {
@@ -80,7 +80,7 @@ a {
 }
 
 .aboutustext h1 {
-  color: #f13c20;
+  color: rgba(168, 99, 99, 0.849);
 }
 
 .imagecarousel {
@@ -104,7 +104,7 @@ a {
 }
 
 .eventsinfo h1 {
-  color: #f13c20;
+  color: rgba(168, 99, 99, 0.849);
 }
 
 .bluesevent {
@@ -136,7 +136,7 @@ a {
 }
 
 .sponsorinfo h1 {
-  color: #f13c20;
+  color: rgba(168, 99, 99, 0.849);
 }
 
 .donationinfo {
@@ -151,7 +151,7 @@ a {
 }
 
 .donationinfo h1 {
-  color: #f13c20;
+  color: rgba(168, 99, 99, 0.849);
 }
 
 .volunteerinfo {
@@ -179,5 +179,37 @@ a {
 @media screen and (max-width: 992px) {
   .MuiToolbar-root {
     flex-direction: column-reverse;
+    margin-right: 0px;
+  }
+
+  .aboutusCont {
+    flex-direction: column;
+  }
+
+  .aboutustext {
+    width: 90vw;
+    margin: 10px;
+  }
+
+  .eventsinfo {
+    width: 90vw;
+  }
+
+  .sponsorinfo {
+    width: 90vw;
+    margin-left: 0px;
+    padding: 10px;
+    align-self: center;
+  }
+
+  .donationinfo {
+    width: 90vw;
+    padding: 10px;
+    margin-right: 0px;
+    align-self: center;
+  }
+
+  .volunteerinfo {
+    width: 100vw;
   }
 }

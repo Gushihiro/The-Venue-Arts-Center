@@ -12,14 +12,20 @@ export default function NavBar() {
         <Toolbar>
           <div className='contactinfo'>
             <div className='emailinfo'>
-              <EmailIcon/><p>: email@email</p>
+              <a href="mailto:myemailaddress@gmail.com">
+                <EmailIcon/>
+              </a>
+              <p className='email'>: e.seifert@thevenueartscenter.org</p>
             </div>
             <div className='phoneinfo'>
-             <PhoneAndroidIcon/><p>: (360) 865-8586</p>
+              <a href='tel:360-850-8586'>
+                <PhoneAndroidIcon/>
+              </a>
+              <p className='phoneNumber'>: (360) 865-8586</p>
             </div>
             <div className='addressinfo'>
-              <BusinessIcon/>
-              <p>
+              <BusinessIcon tabIndex={0} onClick={() => {navigator.clipboard.writeText('116 N Callow Ave, Bremerton, WA 98312')}}/>
+              <p className='address'>
                  : 116 N Callow Ave, Bremerton, WA 98312
               </p>
             </div>
