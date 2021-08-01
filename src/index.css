@@ -70,7 +70,8 @@ a {
 }
 
 .aboutustext {
-  background-color: #efe2ba;
+  background-color: hsla(228, 35%, 83%, 0.286);
+  color: rgb(43, 43, 43);
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -99,7 +100,8 @@ a {
   margin-top: 10vh;
   min-height: 20vh;
   width: 50%;
-  background-color: #efe2ba !important;
+  background-color: hsla(228, 35%, 83%, 0.286);
+  color: rgb(43, 43, 43);
   border-radius: 10px;
 }
 
@@ -130,7 +132,8 @@ a {
   margin-top: 10vh;
   min-height: 40vh;
   padding: 1.5rem;
-  background-color: #efe2ba;
+  background-color: hsla(228, 35%, 83%, 0.286);
+  color: rgb(43, 43, 43);
   border-radius: 10px;
   margin-left: 3rem;
 }
@@ -145,7 +148,8 @@ a {
   align-self: flex-end;
   margin-right: 3rem;
   margin-top: 10vh;
-  background-color: #efe2ba;
+  background-color: hsla(228, 35%, 83%, 0.286);
+  color: rgb(43, 43, 43);
   padding: 1.5rem;
   border-radius: 10px;
 }
@@ -162,7 +166,8 @@ a {
   width: 50%;
   min-height: 20vh;
   align-self: center;
-  background-color: #efe2ba;
+  background-color: hsla(228, 35%, 83%, 0.286);
+  color: rgb(43, 43, 43);
   border-radius: 10px;
 }
 
