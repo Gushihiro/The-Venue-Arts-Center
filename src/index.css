@@ -64,7 +64,7 @@ a {
 .aboutusCont {
   margin-top: 15vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 80%;
   align-self: center;

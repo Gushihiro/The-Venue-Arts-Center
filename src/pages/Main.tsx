@@ -39,7 +39,7 @@ export default function Main() {
       </div>
       <div className='missionbottom'/>
       <div className='aboutusCont'>
-        <div className='aboutustext'>
+        {/* <div className='aboutustext'>
           <h1>About Us</h1>
           <h3>
             The Venue Arts Center is a fund-raising non-profit festival group explicitly focused on raising funds for other non-profits. In exchange for our services, 
@@ -47,7 +47,7 @@ export default function Main() {
             Our current focus is establishing annual Events.
 
           </h3>
-        </div>
+        </div> */}
         <div className='imagecarousel'>
           <img src={image1} alt='Gathering' />
         </div>
