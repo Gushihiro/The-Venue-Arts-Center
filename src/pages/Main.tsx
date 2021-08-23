@@ -1,6 +1,7 @@
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import image1 from '../images/artsgather.jpg'
+import image2 from '../images/ceocfoimage.jpg'
 import EventIcon from '@material-ui/icons/Event';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import Header from '../components/Header';
@@ -36,6 +37,7 @@ export default function Main() {
         </h2>
         <h2>Greetings To All of You</h2>
         <h2>Ed Seifert CEO & Scot Jones CFO</h2>
+        <img className="impImg" src={image2} alt=" CEO and CFO" />
       </div>
       <div className='missionbottom'/>
       <div className='aboutusCont'>
